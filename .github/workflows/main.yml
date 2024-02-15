@@ -1,5 +1,5 @@
 name: vprofile actions
-on: workflow_dispatch
+on: [push, workflow_dispatch]
 env:
   AWS_REGION: eu-west-1
   ECR_REPOSITORY: gitops-project
